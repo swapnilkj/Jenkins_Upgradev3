@@ -12,7 +12,7 @@ job('First-Maven-Project-Via-DSL') {
     }
     publishers {
         //archive the war file generated
-        discardOldBuilds(7, 10)
+       
         archiveArtifacts '**/*.jar'
     }
 }
